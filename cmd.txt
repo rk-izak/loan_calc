@@ -1,0 +1,9 @@
+python C:\Users\Radek\Desktop\Python\loan_calc\main.py
+
+example calls:
+python C:\Users\Radek\Desktop\Python\loan_calc\main.py --type=diff --principal=1000000 --periods=10 --interest=10
+python C:\Users\Radek\Desktop\Python\loan_calc\main.py --type=annuity --principal=1000000 --periods=60 --interest=10
+python C:\Users\Radek\Desktop\Python\loan_calc\main.py --type=diff --principal=1000000 --payment=104000 (error)
+python C:\Users\Radek\Desktop\Python\loan_calc\main.py --type=diff --principal=500000 --periods=8 --interest=7.8
+python C:\Users\Radek\Desktop\Python\loan_calc\main.py --type=annuity --payment=8722 --periods=120 --interest=5.6
+python C:\Users\Radek\Desktop\Python\loan_calc\main.py --type=annuity --principal=500000 --payment=23000 --interest=7.8
